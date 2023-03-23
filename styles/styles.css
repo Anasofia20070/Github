@@ -5,13 +5,13 @@
 }
 
 body{
-    background-image: url(https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2016/Tony-Sweet-Landscapes/Media/Tony-Sweet-landscape-boat-01.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCFKVu_a13NsZtLDvkGIhUIl2rzU8CFSCUyMwBBVG9ZNBuWMjNTJ2okXimUpaL54dRSwc&usqp=CAU);
     background-size: cover;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    color: lightskyblue;
     font-family: helvetica;
+    backdrop-filter: blur(5px);
   
 }
 
