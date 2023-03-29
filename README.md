@@ -95,12 +95,11 @@
 - **thead**:	Cabecera de tabla
 - **tr**:	Fila de una tabla
 
-**Etiquetas inline**:
+**Etiquetas inline**
 
 - **a**:	Define un anchor (anclaje o hipervínculo)
 - **abbr**:	Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas
 - **br**:	line break - ruptura (o salto) de línea
-- **cite**:	Se emplea para marcar una cita o una referencia a otras fuentes
 - **code**:	Delimita el texto considerado un fragmento de código fuente
 - **em**:	emphasis – énfasis
 - **i**:	Muestra el texto marcado con un estilo en cursiva o itálica
@@ -122,7 +121,25 @@
 
 
 ## eventos en JavaScript
-- 
+- **abort (onabort)**:Este evento se produce cuando un usuario detiene la carga de una imagen, ya sea porque detiene la carga de la página o porque realiza una acción que la detiene
+-  **blur (onblur)**: Se desata un evento onblur cuando un elemento pierde el foco de la aplicación. El foco de la aplicación es el lugar donde está situa
+- **click (onclick)**: Se produce cuando se da una pulsación o clic al botón del ratón sobre un elemento de la página, generalmente un botón o un enlace
+-  **dragdrop (ondragdrop)**: Se produce cuando un usuario suelta algo que había arrastrado sobre la página web
+-   **error (onerror)**: Se produce cuando no se puede cargar un documento o una imagen y esta queda rota
+-   **keyup (onkeyup)**:  Se produce cuando el usuario deja de apretar una tecla. Se produce en el momento que se libera la tecla
+-   **resize (onresize)**: Evento que se produce cuando se redimensiona la ventana del navegador, o el frame, en caso de que la página los tenga
+-   **submit (onsubmit)**: Ocurre cuando el visitante apreta sobre el botón de enviar el formulario. Se ejecuta antes del envío propiamente dicho
+-   **unload (onunload)**: Al abandonar una página, ya sea porque se pulse sobre un enlace que nos lleve a otra página o porque se cierre la ventana del navegador, se ejecuta el evento onunload
+
+## 
+
+
+
+
+
+
+
+
 
 
 
