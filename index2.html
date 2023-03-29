@@ -1,72 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Formulario</title>
+    <title>Document</title>
 </head>
 <body>
-
     <header>
         <nav>
-            <ul class="menu"> 
-                <li class="lista"><a href="index.html">Inicio</a></li>
-                <li class="lista"><a href="index2.html">Informacion</a></li>
-                <li class="lista lista-r"><a href="#">Contactenos</a></li>
-            </ul> 
+            <ul class=menu>
+                <li class="lista"><a href="index.html">inicio</a></li>
+                <li class="lista"><a href="index2.html">informacion</a></li>
+                <li class="lista lista-r"><a href="contactenos.html">contactenos</a></li>
+            </ul>
         </nav>
     </header>
-   <main>
-    <form action=""id="form2">
-        <div id="container">
-        <div>
-            <label for=""> Propietario del vehiculo</label><br>
-            <input type="text" id ="Propietario">
-        </div>
-        <div id="Modelo">
-            <div>
-                <label for=""> Modelo del vehiculo </label><br>
-                <input type="text" id="Modelo">
-            </div>
-        
-            <div id="info">
-                <div>
-                    <label for="">Placa</label>
-                    <input type="text"placeholder="NN-NN-LL" id="Placa">
+
+    <main>
+        <form action="" id="form">
+            <div id="contenedor">
+                <div id="">
+                    <label for="">propietario del vehiculo</label> <br>
+                    <input type="text"placeholder="propietario del vehiculo" id="propietario">
                 </div>
-                <div>
-                    <label for="">tipo</label>
-                    <input type="text" id="tipo">
+
+                <div id="modelo">
+                    <label for="">modelo vehiculo</label> <br>
+                    <input type="text"placeholder="modelo del vehiculo" id="modelo">
                 </div>
-            
-            </div>
-            <div id="info2">
-                <div>
-                    <label for="">fecha de Entrada</label><br>
-                    <input type="date">
+
+                <div id="info">
+                    <div>
+                        <label for="">placa</label> <br>
+                        <input type="text"placeholder="NN-NN-LL" id="placa">
+                    </div>
+                    <div>
+                        <label for="">tipo</label> <br>
+                        <input type="text"placeholder="carro moto" id="tipo">
+                    </div>
                 </div>
-                <div>
-                    <label for="">Hora de inicio</label><br>
-                    <input type="time">
+
+                <div id="info2">
+                    <div>
+                        <label for="">fecha de entrada</label> <br>
+                        <input type="date" id="fecha" >
+                    </div>
+                    <div>
+                        <label for="">hora de inicio</label> <br>
+                        <input type="time" id="hora">
+                    </div>
+                    <div>
+                        <label for="">cantidad de hora</label> <br>
+                        <input type="number"placeholder="cantidad" id="cantidad">
+                    </div>
                 </div>
-                <div>
-                    <label for="">Cantidad de horas</label><br>
-                    <input type="number">
-                </div>
-                
-    
             </div>
             <button type="submit">Enviar</button>
-        </div>
-        
-        
-    </form>
+        </form>
+    </main>
+<script src="./script/script2.js"></script>
+<script src="./script/script2.js"></script>
 
-
-   </main>
-   
-    <script src="./script/script2.js"></script>
 </body>
+
 </html>
