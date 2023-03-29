@@ -131,9 +131,8 @@
 -   **submit (onsubmit)**: Ocurre cuando el visitante apreta sobre el botón de enviar el formulario. Se ejecuta antes del envío propiamente dicho
 -   **unload (onunload)**: Al abandonar una página, ya sea porque se pulse sobre un enlace que nos lleve a otra página o porque se cierre la ventana del navegador, se ejecuta el evento onunload
 
-## 
-
-
+##  los selectores simples y los compuestos
+- **sectores simples**: 
 
 
 
