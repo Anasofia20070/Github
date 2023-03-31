@@ -132,7 +132,8 @@
 -   **unload (onunload)**: Al abandonar una página, ya sea porque se pulse sobre un enlace que nos lleve a otra página o porque se cierre la ventana del navegador, se ejecuta el evento onunload
 
 ##  los selectores simples y los compuestos
-- **sectores simples**: 
+- **sectores simples**:  es aquel que está formado sólo por una única cadena textual, sin ningún combinado
+- **selectores compuestos**: es una secuencia o cadena de selectores separados por combinadores
 
 
 
